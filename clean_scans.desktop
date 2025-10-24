@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=clean_scans
+X-Python-2-Compatible=false
+X-Krita-Manual=Manual.html
+Name=clean_scans
+Comment=Set up filters on each layer of an imported pdf. Re-run to update the filter settings to match those of 'Group 1'.
