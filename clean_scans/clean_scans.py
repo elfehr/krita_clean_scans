@@ -52,6 +52,7 @@ class CleanScans(Extension):
         group = self.doc.createGroupLayer(f'Group {i+1}')
         group.setChildNodes([original, copy])
         self.root.addChildNode(group, layer)
+        group.setCollapsed(True)
         layer.remove()
 
 
